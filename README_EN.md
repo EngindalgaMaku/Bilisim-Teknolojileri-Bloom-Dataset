@@ -195,7 +195,16 @@ Questions are designed to reflect real educational scenarios and matched with co
 
 ## License and Citation
 
-This dataset is provided for academic and research purposes. Please cite as follows:
+This dataset is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE).
+
+### Terms of Use
+- ✅ You can use it for commercial and academic purposes
+- ✅ You can modify and distribute the dataset
+- ⚠️ You must provide attribution when using
+
+### Citation Format
+
+Please cite as follows when using:
 
 ```bibtex
 @dataset{bilisim_rag_dataset_2026,

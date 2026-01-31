@@ -195,7 +195,16 @@ Sorular, gerçek eğitim senaryolarını yansıtacak şekilde tasarlanmış ve k
 
 ## Lisans ve Atıf
 
-Bu veri seti akademik ve araştırma amaçlı kullanım için sunulmaktadır. Kullanımda aşağıdaki atıf yapılması rica olunur:
+Bu veri seti [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE) altında lisanslanmıştır.
+
+### Kullanım Koşulları
+- ✅ Ticari ve akademik amaçlarla kullanabilirsiniz
+- ✅ Veri setini değiştirebilir ve dağıtabilirsiniz
+- ⚠️ Kullanımda mutlaka atıf yapmalısınız
+
+### Atıf Formatı
+
+Kullanımda aşağıdaki atıf yapılması rica olunur:
 
 ```bibtex
 @dataset{bilisim_rag_dataset_2026,
