@@ -1,0 +1,21 @@
+# Ignore temporary files
+*.tmp
+*.bak
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore analysis outputs
+analysis_results/
+evaluation_outputs/
+*.log
