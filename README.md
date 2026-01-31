@@ -159,7 +159,11 @@ def analyze_by_bloom_level(results, dataset):
 ## Metodoloji
 
 ### Veri Toplama
-Veri seti, Milli Eğitim Bakanlığı onaylı bilişim teknolojileri ders kitaplarından ve eğitim materyallerinden derlenmiştir. Sorular, gerçek eğitim senaryolarını yansıtacak şekilde tasarlanmıştır.
+Veri seti, Milli Eğitim Bakanlığı tarafından yayınlanan resmi bilişim teknolojileri ders kitabından derlenmiştir:
+
+**Kaynak Doküman**: [Bilişim Teknolojileri Ders Kitabı (BT2025BTT920)](https://meslek.meb.gov.tr/upload/dersmateryali/pdf/BT2025BTT920.pdf)
+
+Sorular, gerçek eğitim senaryolarını yansıtacak şekilde tasarlanmış ve kaynak dokümandan chunk'lara ayrılarak bağlam bilgisi ile eşleştirilmiştir.
 
 ### Kalite Kontrol
 - Uzman değerlendirmesi ile Bloom seviyesi doğrulaması
@@ -168,8 +172,9 @@ Veri seti, Milli Eğitim Bakanlığı onaylı bilişim teknolojileri ders kitapl
 - Tekrarlayan veya belirsiz soruların elenmesi
 
 ### Etik Hususlar
-- Veri seti eğitim amaçlı kullanım için tasarlanmıştır
+- Veri seti eğitim ve araştırma amaçlı kullanım için tasarlanmıştır
 - Kişisel bilgi içermemektedir
+- Kaynak materyal Milli Eğitim Bakanlığı tarafından kamuya açık olarak yayınlanmıştır
 - Telif hakları ilgili eğitim materyallerine aittir
 
 ## Lisans ve Atıf
@@ -179,10 +184,10 @@ Bu veri seti akademik ve araştırma amaçlı kullanım için sunulmaktadır. Ku
 ```bibtex
 @dataset{bilisim_rag_dataset_2026,
   title={Bilişim Teknolojileri RAG Veri Seti: Bloom Taksonomisi ile Sınıflandırılmış Türkçe Soru-Cevap Çiftleri},
-  author={[Yazar Adları]},
+  author={Engin Dalga},
   year={2026},
   publisher={GitHub},
-  url={[Repository URL]}
+  url={https://github.com/EngindalgaMaku/Bilisim-Teknolojileri-Bloom-Dataset}
 }
 ```
 
@@ -196,6 +201,8 @@ Veri setinin geliştirilmesine katkıda bulunmak için:
 ## İletişim
 
 Sorularınız ve önerileriniz için:
+- **GitHub**: [Engin Dalga](https://github.com/EngindalgaMaku)
+- **GitHub Issues**: [Repository Issues](https://github.com/EngindalgaMaku/Bilisim-Teknolojileri-Bloom-Dataset/issues)
 - **Email**: 2430131010@ogr.mehmetakif.edu.tr
 
 ## Sürüm Geçmişi
