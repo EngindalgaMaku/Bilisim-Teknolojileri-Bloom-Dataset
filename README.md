@@ -1,5 +1,7 @@
 # Bilişim Teknolojileri RAG Veri Seti
 
+**Türkçe** | [English](README_EN.md)
+
 ## Genel Bakış
 
 Bu veri seti, Retrieval-Augmented Generation (RAG) sistemlerinin değerlendirilmesi için özel olarak hazırlanmış, Bloom Taksonomisi ile sınıflandırılmış Türkçe soru-cevap çiftlerinden oluşmaktadır. Veri seti, bilişim teknolojileri alanında eğitim materyallerinden türetilmiş ve RAG sistemlerinin performansını çok boyutlu olarak ölçmek üzere tasarlanmıştır.
@@ -39,6 +41,20 @@ Veri seti, Bloom'un Revize Edilmiş Taksonomisi'ne göre üç ana bilişsel düz
 3. **Analyzing / Evaluating (Analiz / Değerlendirme)**: Bilginin parçalara ayrılması, ilişkilerin incelenmesi ve kriterlere dayalı yargılama
 
 Bu sınıflandırma, RAG sistemlerinin farklı bilişsel seviyelerdeki performansını değerlendirmeyi mümkün kılar ve özellikle temel bilgi hatırlama ile üst düzey bilişsel becerilerin karşılaştırılmasına olanak tanır.
+
+### Bloom Seviyesi Dağılımının Gerekçesi
+
+Veri setindeki Bloom seviyesi dağılımı (%50 Remembering, %30 Understanding/Applying, %20 Analyzing/Evaluating) kasıtlı olarak piramit yapısında tasarlanmıştır:
+
+**1. Pedagojik Temel**: Bloom Taksonomisi'nin orijinal yapısı, üst seviye bilişsel becerilerin alt seviye becerilere dayandığı bir piramittir. Öğrencilerin önce temel bilgileri hatırlaması, sonra anlaması ve en son analiz/değerlendirme yapabilmesi beklenir. Bu dağılım, eğitim bilimlerindeki bu temel prensibi yansıtır.
+
+**2. Gerçek Dünya Senaryosu**: Kaynak eğitim materyalindeki (MEB Bilişim Teknolojileri Ders Kitabı) doğal soru dağılımını koruyarak, RAG sistemlerinin gerçek eğitim ortamlarındaki performansını daha doğru ölçmeyi hedefledik. Gerçek sınıf ortamlarında öğrencilerin karşılaştığı soru dağılımı bu oranları yansıtmaktadır.
+
+**3. İstatistiksel Güvenilirlik**: Her seviyede anlamlı değerlendirme yapabilmek için yeterli soru sayısı sağlanmıştır. 50 hatırlama sorusu, temel retrieval yeteneklerinin kapsamlı değerlendirilmesini sağlarken, 20 analiz/değerlendirme sorusu üst seviye bilişsel becerileri test etmek için yeterli istatistiksel güce sahiptir.
+
+**4. Retrieval Odaklı Değerlendirme**: RAG sistemlerinin temel retrieval yeteneklerini (doğru chunk'ı bulma, ilgili bağlamı getirme) kapsamlı şekilde test etmek için daha fazla hatırlama sorusu gereklidir. Bu seviye, sistemin temel işlevselliğini en iyi şekilde ölçer.
+
+**5. Benchmark Uyumluluğu**: Literatürdeki RAG ve soru-cevap benchmark'larında (SQuAD, Natural Questions, TriviaQA) benzer dağılımlar görülür. Bu yaklaşım, sonuçlarımızın diğer çalışmalarla karşılaştırılabilir olmasını sağlar.
 
 ## Kullanım Alanları
 
